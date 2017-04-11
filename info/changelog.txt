@@ -1,0 +1,42 @@
+   *** Version History ***
+   
+   
+V-0.1.0: Unofficial Release
+Released:03/30/2016
+**Libraries**
+GCorev0.1.8.1
+
+  --  Includes a sample class for creating samples rapidly, the sample class also provides
+      constructors so you can efficiently copy a sample and create a sample from an unordered
+      array list.
+      
+  --  Added a sample statistics class so you can compute the most basic statistics about samples.
+      
+  --  Added two basic plots for the sample class, the histogram plot and the box plot.
+  
+  
+V-0.1.1: Sample Bug Fix Update
+Released: 04/01/2016
+**Libraries**
+GCorev0.2.1
+
+  --  Fixed a bug where there could be more elements in a sample than were in the array list when using
+      the array list constructor.
+      
+      
+V-0.1.2: Random Number Generator Update
+Released: 04/08/2016
+**Libraries**
+GCorev0.2.1
+
+  --  Added random number generators for all of the most common distributions in statistics these
+      include the Normal, Uniform, Poisson, Exponential, ChiSquared, T, Cauchy, F and many more 
+      distributions.
+  
+  --  Optimized the process of outlier removal from a sample by adding the removeSmallest and
+      removeLargest methods to the sample class.
+      
+  --  Added a util class for random number generators that let's you apply a function to any of the random
+      number generators to make a new one, this can be used to make more complicated distributions.
+      
+      
